@@ -1,0 +1,59 @@
+Decision Tree Evaluation:
+Decision Tree (Validation) Performance:
+              precision    recall  f1-score   support
+
+           0       0.82      0.99      0.89       815
+           1       0.21      0.02      0.03       185
+
+    accuracy                           0.81      1000
+   macro avg       0.51      0.50      0.46      1000
+weighted avg       0.70      0.81      0.73      1000
+
+Confusion Matrix:
+[[804  11]
+ [182   3]]
+
+Logistic Regression Evaluation:
+Logistic Regression (Validation) Performance:
+              precision    recall  f1-score   support
+
+           0       0.82      0.55      0.66       815
+           1       0.19      0.46      0.27       185
+
+    accuracy                           0.53      1000
+   macro avg       0.50      0.50      0.46      1000
+weighted avg       0.70      0.53      0.59      1000
+
+Confusion Matrix:
+[[448 367]
+ [100  85]]
+
+Decision Tree Final Testing:
+Decision Tree (Test) Performance:
+              precision    recall  f1-score   support
+
+           0       0.80      1.00      0.89       793
+           1       0.75      0.03      0.06       207
+
+    accuracy                           0.80      1000
+   macro avg       0.77      0.51      0.47      1000
+weighted avg       0.79      0.80      0.71      1000
+
+Confusion Matrix:
+[[791   2]
+ [201   6]]
+
+Logistic Regression Final Testing:
+Logistic Regression (Test) Performance:
+              precision    recall  f1-score   support
+
+           0       0.80      0.54      0.65       793
+           1       0.22      0.48      0.30       207
+
+    accuracy                           0.53      1000
+   macro avg       0.51      0.51      0.47      1000
+weighted avg       0.68      0.53      0.58      1000
+
+Confusion Matrix:
+[[432 361]
+ [108  99]]
